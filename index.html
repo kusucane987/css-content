@@ -20,21 +20,21 @@
             font-weight: 500px;
             overflow: hidden;
         }*/
+        body{
+            margin: 0px;
+        }
         .card{
             display: grid;
-            grid-template-columns:40px 40px 40px 40px;
-            grid-template-rows: auto;
-             gap:320px;      
-              }
-         div{
-            width: 300px;
-            height: 400px;
-            background-color: lightseagreen;
-         }     
+            grid-template-columns: repeat(auto-fit,minmax(250px, 1fr));
+            margin: 0px;
+            max-width: 1200px;
+             gap:20px;      
+              } 
          img{
-            width: 300px;
+            width: 100%;
+            height: auto;
          }
-         img:hover{
+          img:hover{
             transform: scale(1.2);
          }
     </style>
@@ -128,11 +128,14 @@
     </section>-->
     <section>
         <div class="card">
-            <div><img src="./assests/r1.png" alt="" style="position: absolute;">
-            <p style="position: relative;">Pavan kalyan</p></div>
-            <div><img src="./assests/r2.png" alt=""></div>
-            <div><img src="./assests/r1.png" alt=""></div>
-            <div><img src="./assests/r4.png" alt=""></div>
+            <img src="./assests/r1.png" alt="">  
+            <img src="./assests/r1.png" alt="">
+            <img src="./assests/r1.png" alt="">
+            <img src="./assests/r4.png" alt="">
+            <img src="./assests/r1.png" alt="">  
+            <img src="./assests/r1.png" alt="">
+            <img src="./assests/r1.png" alt="">
+            <img src="./assests/r1.png" alt="">
         </div>
     </section>
     
