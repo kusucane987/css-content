@@ -5,19 +5,42 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        div{
-            padding: 50px 50px 50px 50px;
-            border: 1px solid black;
-            width: 88%;
-        
+       /* .box1{
+            border: 1px solod black;
+            width: 300px;
+            height: 600px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            white-space: nowrap;
+            margin-left: 30px;
+            padding: 5px;
         }
-        h1{
-            text-align: center;
-        }
+        .box1-title{
+            font-size: 30px;
+            font-weight: 500px;
+            overflow: hidden;
+        }*/
+        .card{
+            display: grid;
+            grid-template-columns:40px 40px 40px 40px;
+            grid-template-rows: auto;
+             gap:320px;      
+              }
+         div{
+            width: 300px;
+            height: 400px;
+            background-color: lightseagreen;
+         }     
+         img{
+            width: 300px;
+         }
+         img:hover{
+            transform: scale(1.2);
+         }
     </style>
 </head>
 <body>
-    <div style="  background-color: blueviolet;">
+   <!--<div style="  background-color: blueviolet;">
         <h1>Home</h1>
     </div>
     <div style="display: flex; padding: 10px;">
@@ -53,13 +76,65 @@
     </div>
     
     </div>
-    <div style="height: 170px; width: 320px; background-color: blueviolet; color: white; border: 1px solid black; font-family: Arial, Helvetica, sans-serif; border-radius: 10px; text-align: left;">
+    
+    <div style="display: flex; padding: 10px 10px; ">
+    <div style="height: 150px; width: 320px; background-color: hsl(271, 57%, 44%); color: white; border: 1px solid black; font-family: Arial, Helvetica, sans-serif; border-radius: 20px; text-align: left; margin: 10px;">
        <h1 style="padding-top: 0px; text-align:left; margin: 0px;">PRE-BOOK OFFER</h1>
        <h1 style="text-align: left; padding-bottom: 0px;">Flat 15% OFF</h1>
        <P>Valid from 12PM to 11:30PM</P>
        <P>Today</p>
        <P>Booking Required</p>
     </div>
+    <div style="height: 150px; width: 320px; background-color: hsl(271, 57%, 44%); color: white; border: 1px solid black; font-family: Arial, Helvetica, sans-serif; border-radius: 20px; text-align: left;margin: 10px;">
+       <h1 style="padding-top: 0px; text-align:left; margin: 0px;">INSTANT OFFER</h1>
+       <h1 style="text-align: left; padding-bottom: 0px;">Flat 10% OFF</h1>
+       <P>On bill payment</P>
+       
+    </div>
+    <div style="height: 150px; width: 320px; background-color: hsl(271, 57%, 44%); color: white; border: 1px solid black; font-family: Arial, Helvetica, sans-serif; border-radius: 20px; text-align: left;margin: 10px;">
+       <h1 style="padding-top: 0px; text-align:left; margin: 0px;">SURPRISE</h1>
+       <h1 style="text-align: left; padding-bottom: 0px;">Get a Scrach Card</h1>
+       <P>On bill payment</P>
+       
+    </div>
+    </div>-->
+   <!-- <section>
+        <div style="display: flex;">
+        <div class="box1">
+            <img src="./assests/r1.png" alt="" width="300px">
+        <div class="box1-title">They call him OG </div>
+        <div class="year">2025</div>
+        
+        </div>
+        <div class="box1">
+            <img src="./assests/r1.png" alt="" width="300px">
+        <div class="box1-title">They call him OG </div>
+        <div class="year">2025</div>
+        
+        </div>
+        <div class="box1">
+            <img src="./assests/r1.png" alt="" width="300px">
+        <div class="box1-title">They call him OG </div>
+        <div class="year">2025</div>
+        
+        </div>
+        <div class="box1">
+            <img src="./assests/r1.png" alt="" width="300px">
+        <div class="box1-title">They call him OG </div>
+        <div class="year">2025</div>
+        
+        </div>
+    </div>
+    </section>-->
+    <section>
+        <div class="card">
+            <div><img src="./assests/r1.png" alt="" style="position: absolute;">
+            <p style="position: relative;">Pavan kalyan</p></div>
+            <div><img src="./assests/r2.png" alt=""></div>
+            <div><img src="./assests/r1.png" alt=""></div>
+            <div><img src="./assests/r4.png" alt=""></div>
+        </div>
+    </section>
     
 </body>
 </html>
